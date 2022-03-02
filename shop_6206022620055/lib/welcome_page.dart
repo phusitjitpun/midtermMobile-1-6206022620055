@@ -82,7 +82,7 @@ class WelcomePage extends StatelessWidget {
   }
 
   double numberAdd(double w, double h) {
-    total = w + h;
+    total = w * h;
 
     return total;
   }
